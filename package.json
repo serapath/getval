@@ -1,6 +1,6 @@
 {
   "name": "getval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "getval(object, 'path/to/property', '/') // => return object.path.to.property || undefined",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,6 @@
     "type": "git",
     "url": "https://github.com/serapath/getval.git"
   },
-  "keywords": [
-    "resolve",
-    "path",
-    "to",
-    "object"
-  ],
   "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
   "license": "MIT",
   "bugs": {

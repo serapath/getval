@@ -1,6 +1,6 @@
 {
   "name": "getval",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "getval(object, 'path/to/property', '/') // => return object.path.to.property || undefined",
   "main": "index.js",
   "scripts": {

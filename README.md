@@ -1,5 +1,5 @@
 # getval
-read values of an object by using keys like in a dictionary
+read values from nested object like from a flat key value store
 
 # usage
 `npm install getval`

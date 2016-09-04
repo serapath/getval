@@ -1,7 +1,7 @@
 {
   "name": "getval",
-  "version": "4.0.0",
-  "description": "getval(object, 'path/to/property', '/') // => return object.path.to.property || undefined",
+  "version": "4.0.1",
+  "description": "read values from nested object like from a flat key value store",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"

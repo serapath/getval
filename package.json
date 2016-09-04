@@ -1,10 +1,10 @@
 {
   "name": "getval",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "description": "getval(object, 'path/to/property', '/') // => return object.path.to.property || undefined",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/serapath/getval/issues"
   },
-  "homepage": "https://github.com/serapath/getval"
+  "homepage": "https://github.com/serapath/getval",
+  "dependencies": {
+    "dsplit": "^2.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
 }
